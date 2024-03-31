@@ -1,0 +1,44 @@
+:root {
+    --cor-primaria: rgb(0, 255, 0);
+    --cor-secundaria: black;
+    --cor-terciaria: white;
+}
+
+
+header {
+    color: rgb(0, 255, 0);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    font-weight: 600;
+}
+body {
+    background-color: var(--cor-secundaria);
+}
+
+.head{
+    background-color: var(--cor-secundaria);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.text_menu {
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.principal_h1{
+    color: var(--cor-primaria) ;
+}
+
+.principal_p {
+    color: var(--cor-primaria);
+}
